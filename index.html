@@ -1,18 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patrick Wallace</title>
-    <link rel="stylesheet" href="style/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrick Wallace – Data Science Student</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <main>
-        <h1>Patrick Wallace</h1>
-        <img src="images/profile.jpeg" style="margin-left: auto; margin-right: auto; display: block;" alt="Profile Picture">
-        <p>Welcome to my personal website!</p>
-        <p>I am currently studying Data Science at the University of Michigan College of Engineering with a minor in User Experience Design. I have spent four semesters as an intern at Siemens Digital Industries Software in various development-focused roles. My passion is using my creative skills and my technical knowledge to solve real-world, complex problems. People have described me as being creative, passionate,, and hard-working. In my free time, I enjoy fishing, hunting, and being outdoors!</p>
-        <a href="https://www.linkedin.com/in/patrickwal">Follow me on LinkedIn</a>
-    </main>
+  <!-- =========== HERO SECTION =========== -->
+  <header class="hero">
+    <div class="hero__inner">
+      <!-- Copy -->
+      <div class="hero__text">
+        <h1 class="hero__headline">
+          HELLO, I AM<br />
+          <span class="hero__name">PATRICK<br />WALLACE.</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Data Science Student at the <br />
+          <span class="hero__school">University of Michigan</span>
+        </p>
+
+        <img src="image3.png" alt="patrick at patrick wallace dot us" class="email">
+        <a href="https://www.linkedin.com/in/patrickwal" class="btn btn--linkedin" target="_blank" rel="noopener">
+          Connect with me on LinkedIn
+        </a>
+      </div>
+
+      <!-- Portrait -->
+      <div class="hero__media">
+        <img src="image1.png" alt="Patrick Wallace" class="hero__portrait" />
+      </div>
+    </div>
+
+    <!-- Gradient divider (now sits inside hero__inner width) -->
+    <div class="hero__divider-wrap">
+      <hr class="hero__divider" />
+    </div>
+  </header>
+
+  <!-- =========== QUOTE STRIP =========== -->
+  <section class="tagline">
+    <p class="tagline__text">
+      Passionate about the <span class="gradient-text">data</span>, prioritizing the <span class="gradient-text">people</span>.
+    </p>
+  </section>
+
+  <!-- =========== ABOUT SECTION =========== -->
+  <section class="about">
+    <div class="about__inner">
+      <!-- Profile -->
+      <div class="about__profile">
+        <div class="about__image-wrap">
+          <img src="image2.png" alt="Patrick Wallace" class="about__image" />
+        </div>
+
+        <h2 class="about__name">PATRICK WALLACE</h2>
+
+        
+      </div>
+
+      <!-- Details -->
+      <div class="about__details">
+
+        <p class="about__paragraph">
+          The most important part of data-driven product design is making it
+          <strong>usable</strong> for your intended audience. I am an expert at
+          communication and user study, with a minor degree in User Experience
+          Design. I have successfully implemented many user studies to make
+          software products more effective and well adopted. I focus on
+          providing clear and open communication to all of my colleagues.
+        </p>
+
+        <p class="about__internships">
+          <span class="gradient-text" style="font-size: 4rem; margin-right: 1rem">5</span>
+          Semester-long internships at Siemens DISW
+        </p>
+
+        <p class="about__paragraph">
+          My career focus is in <strong>data engineering, full-stack web development,
+          and user-centered design</strong>. I have made significant progress in
+          developing these skills through my internships at Siemens. My
+          flexibility for learning new skills is noteworthy, and I always find
+          success with whatever role I’m in.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== EXPERIENCE / SKILLS =========== -->
+  <section class="skills">
+    <div class="skills__inner">
+      <!-- Summary -->
+      <div class="skills__summary">
+        <span class="skills__label">Work Experience</span>
+        <h2 class="skills__headline">MY PROVEN SKILLS</h2>
+        <p class="skills__description">
+          Throughout each of my internships, I have focused on one or two
+          skills of interest. For two years, I led the development of a major
+          internal social-media application that provided insights into our
+          ambassador program at Siemens. For the last year I have concentrated
+          on web scraping and competitive intelligence for our academic programs.
+        </p>
+        <a href="#contact" class="btn btn--cta">How can my skills benefit your company?</a>
+      </div>
+
+      <!-- Timeline -->
+      <ul class="timeline">
+        <li class="timeline__item">
+          <span class="timeline__date">Fall 2025</span>
+          <span class="timeline__company">– Siemens DISW, Future Workforce</span>
+          <h3 class="timeline__title">EXPLORATORY DATA ANALYSIS</h3>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__date">Summer 2025</span>
+          <span class="timeline__company">– Siemens DISW, Future Workforce</span>
+          <h3 class="timeline__title">DATA MINING &amp; PROJECT MANAGEMENT</h3>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__date">Fall 2024</span>
+          <span class="timeline__company">– Siemens DISW, Future Workforce</span>
+          <h3 class="timeline__title">EVENT MANAGEMENT</h3>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__date">Summer 2024</span>
+          <span class="timeline__company">– Siemens DISW, Future Workforce</span>
+          <h3 class="timeline__title">FULL-STACK WEB DEVELOPMENT &amp; ANALYTICS</h3>
+        </li>
+
+        <li class="timeline__item">
+          <span class="timeline__date">Summer 2023</span>
+          <span class="timeline__company">– Siemens DISW, Technical Marketing</span>
+          <h3 class="timeline__title">WEB DESIGN, DATA MANAGEMENT</h3>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- =========== CONTACT =========== -->
+  <section class="contact" id="contact">
+    <h2 class="contact__headline">CONTACT ME</h2>
+    <p class="contact__text">I am open for all business inquiries through email at</p>
+
+    <img src="image3.png" alt="patrick at patrick wallace dot us" class="email" style="margin: 0 auto; margin-bottom: 1rem;">
+
+    <p class="contact__or">or</p>
+
+    <a href="https://www.linkedin.com/in/patrickwal" class="btn btn--linkedin-large" target="_blank" rel="noopener">
+      Send me a message on LinkedIn
+    </a>
+  </section>
 </body>
 </html>
