@@ -233,4 +233,6 @@ a { text-decoration: none; color: inherit; }
   .hero__media{display:none}
   .timeline__company{display:none}
   .btn--linkedin-large{width: 80%}
+  .contact__text{width: 80%; margin: 20px auto}
+  .email{width: 80%; height: auto}
 }
